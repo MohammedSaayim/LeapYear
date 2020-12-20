@@ -1,0 +1,23 @@
+{
+  "name": "LeapYear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammedSaayim/LeapYear.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammedSaayim/LeapYear/issues"
+  },
+  "homepage": "https://github.com/MohammedSaayim/LeapYear#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
