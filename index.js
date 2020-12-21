@@ -7,7 +7,7 @@ console.log(chalk.bgGreenBright('Welcome '+userName));
 var year=prompt("What is your year of birth?");
 
 if(isNaN(year)){
-  console.log("Error: Entered value is invalid, please enter your birth year in number format(e.g: 1999)")
+  console.log(chalk.bgRedBright("Error: Entered value is invalid, please enter your birth year in number format(e.g: 1999)"))
 }
 else{
 if((year%4==0&&year%100!=0)||(year%4==0&&year%100==0&&year%400==0)){
